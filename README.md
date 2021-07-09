@@ -2,8 +2,9 @@
 
 - Desktop
 <p align="center">
-    <img src="https://i.imgur.com/8kyfTme.gif" /><br>
+    <img src="https://i.imgur.com/NLnpzyt.png" /><br>
 </p>
+<a href="https://i.imgur.com/8kyfTme.gif">GIF DO DESKTOP</a>
 
 - Mobile
 <p align="center">
