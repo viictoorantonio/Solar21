@@ -4,7 +4,6 @@
 
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
-
 main {
     height: 100vh;
     max-height: 100vh;
@@ -20,13 +19,11 @@ main {
     justify-content: space-between;
     flex-direction: column;
 }
-
 .container {
     width: 85%;
     margin: 0 auto;
     margin-top: 5%;
 }
-
 .logo {
     width: 100px;
     height: 100px;
@@ -36,24 +33,20 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 .logo img {
     width: 70px;
 }
-
 .title {
     width: 100%;
     margin: 20px 0;
 
     display: flex;
 }
-
 .title .bar {
     width: 5px;
     background-color: #ffdd02;
     margin-right: 15px;
 }
-
 .title h1 {
     color: #fff;
     font-family: Raleway;
@@ -61,99 +54,77 @@ main {
     font-size: 40px;
     text-shadow: 1px 1px 5px #0000004f;
 }
-
 .title h1 strong {
     color: #ffdd02;
 }
-
 .subtitle {
     margin: 0 0 20px 20px;
     font-weight: 100;
     font-size: 22px;
     color: #fff;
 }
-
 .search {
     margin: 0 0 0 20px;
-
     display: flex;
     flex-direction: column;
-
     width: 50%;
     max-width: 200px;
 }
-
 .error {
     color: #FFF;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
-
 .error svg {
     margin-right: 5px;
 }
-
 .search input {
     height: 35px;
     padding: 5px;
-
     border: 1px #fff solid;
     border-radius: 5px;
     outline: none;
-
     font-size: 18px;
 }
-
 .search input:focus {
     border-color: #ffdd02;
 }
-
 .search button {
     height: 40px;
     padding: 5px;
     margin-top: 10px;
-
     border: none;
     border-radius: 5px;
     outline: none;
-
     background-color: #ffdd02;
-
     color: #000;
     font-size: 18px;
     font-weight: 700;
-
     cursor: pointer;
 }
-
 footer {
     width: 100%;
     height: 50px;
     background: 0% 0% no-repeat padding-box padding-box rgba(0, 0, 0, 0.5);
     color: #FFF;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
 footer .social img {
     margin-right: 5px;
 }
-
 .background {
     width: 100%;
     height: 100vh;
     background: 0% 0% no-repeat padding-box padding-box rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .modal {
     width: 50%;
     max-width: 550px;
@@ -161,86 +132,64 @@ footer .social img {
     border-radius: 10px;
     padding: 2%;
 }
-
 .modal .close {
     width: 100%;
     text-align: end;
     font-size: 20px;
     cursor: pointer;
 }
-
 .modal .content {
     width: 100%;
     margin-bottom: 10px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
 .modal .content p {
     font-size: 26px;
     font-weight: 700;
     text-align: center;
-
     margin: 20px auto;
 }
-
 .modal .content p strong {
     color: #ffdd02;
 }
-
 .modal .content a {
     height: 40px;
     padding: 5px;
-
     border: none;
     border-radius: 5px;
     outline: none;
-
     background-color: #ffdd02;
-
     color: #000;
     font-size: 18px;
     font-weight: 700;
-
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-decoration: none;
 }
-
 @media screen and (max-width: 900px) {
-    
     .modal {
         width: 90%;
     }
-
     .modal .content p {
         font-size: 22px;
     }
-
     .search {
         width: 70%;
         max-width: 400px;
     }
-    
     footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
-
         flex-direction: column;
-
         height: 70px;
     }
-
     footer .social img {
         margin-right: 5px;
     }
-
 }
